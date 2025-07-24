@@ -3,4 +3,7 @@
 Cargo.lock
 bin/
 pkg/
+packages/
 wasm-pack.log
+/tests/js-test/node_modules
+/tests/e2e/node_modules

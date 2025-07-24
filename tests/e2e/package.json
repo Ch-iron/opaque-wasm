@@ -1,0 +1,43 @@
+{
+  "name": "opaque-tests-e2e",
+  "version": "0.0.0",
+  "private": true,
+  "description": "End-to-end testing client/server protocol via the JS API",
+  "license": "MIT",
+  "author": {
+    "name": "Ch-iron",
+    "email": "cch7264@gmail.com",
+    "url": "https://github.com/Ch-iron/opaque-wasm"
+  },
+  "type": "module",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "test": "playwright test"
+  },
+  "dependencies": {
+    "@47ng/codec": "^1.1.0",
+    "@chakra-ui/react": "^2.4.9",
+    "@emotion/react": "^11.10.5",
+    "@emotion/styled": "^11.10.5",
+    "framer-motion": "^9.0.1",
+    "next": "^13.1.6",
+    "opaque-client": "file:../../packages/client",
+    "opaque-server": "file:../../packages/server",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-hook-form": "^7.43.0",
+    "react-icons": "^4.7.1",
+    "zod": "^3.20.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.20.12",
+    "@playwright/test": "^1.30.0",
+    "@types/node": "^18.11.18",
+    "@types/react": "^18.0.27",
+    "@types/react-dom": "^18.0.10",
+    "playwright": "^1.30.0",
+    "typescript": "^4.9.5"
+  }
+}
