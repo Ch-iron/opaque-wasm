@@ -1,0 +1,1 @@
+wasm-pack build --target web --out-dir ./packages/client --out-name opaque-client --release --no-default-features --features client

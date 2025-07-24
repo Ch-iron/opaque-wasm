@@ -1,0 +1,1 @@
+wasm-pack build --target nodejs --out-dir ./packages/server --out-name opaque-server --release
